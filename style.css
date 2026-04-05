@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "SolaimanLipiNormal";
+    src: url('fonts/solaimanlipi_20-04-07.eot');
+    src: url('fonts/solaimanlipi_20-04-07.eot')format('embedded-opentype'), url('fonts/solaimanlipi_20-04-07.woff') format('woff'), url('fonts/solaimanlipi_20-04-07.ttf') format('truetype'), url('fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal') format('svg');
+}
+
+body {
+    /* font-family: "Baloo Da 2", sans-serif; */
+    font-family: SolaimanLipiNormal;
+    font-size: 15px;
+    line-height: 150%;
+   overflow-x: hidden;
+   color: #333;
+}
+
