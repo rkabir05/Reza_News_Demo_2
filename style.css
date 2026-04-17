@@ -21,3 +21,187 @@ body {
    color: #333;
 }
 
+
+.bi-house-door,
+.heading>h1>a,
+.heading>h2>a,
+.heading>h3>a,
+.heading>h4>a,
+.heading>h5>a,
+.heading>h6>a{
+    transition: all 0.3s ease-in-out;
+
+}
+.bi-house-door:hover,
+.heading>h1>a:hover,
+.heading>h2>a:hover,
+.heading>h3>a:hover,
+.heading>h4>a:hover,
+.heading>h5>a:hover,
+.heading>h6>a:hover {
+    color: red !important;
+}
+
+
+.dropdown-menu {
+  z-index: 10 !important;
+  /* pointer-events: none; */
+
+}
+
+
+
+.social-media>ul>li>a>i {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50px;
+    color: #333;
+    padding-left: 1px;
+}
+
+.social-media>ul>li>a>.fa-facebook-f:hover {
+    background-color: #1877F2 ;
+    color: white;
+}
+
+.social-media>ul>li>a>.fa-x-twitter:hover {
+    background-color: #000000 ;
+    color: white;
+}
+
+.social-media>ul>li>a>.fa-youtube:hover {
+    background-color: #ff0000 ;
+    color: white;
+}
+
+.social-media>ul>li>a>.fa-instagram:hover {
+    background-color: #8134AF ;
+    color: white;
+}
+
+
+.social-media>ul>li>a>.fa-whatsapp:hover {
+    background-color:  #25d366 ;
+    color: white;
+}
+
+.social-media>ul>li>a>.fa-linkedin-in:hover {
+    background-color: #0077B5 ;
+    color: white;
+}
+
+
+
+
+
+
+
+.main-lead {
+    position: relative;
+}
+
+.main-img {
+    position: relative;
+}
+
+
+
+
+.p-title-box {
+    left: 30px;
+    bottom: 15px;
+
+}
+
+.lead-img-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: 1;
+    opacity: 0.11;
+    transition: all 0.3s ease;
+}
+
+
+.main-lead-box:hover .lead-img-over{
+    background: transparent !important;
+    z-index: 1;
+    transition: all 0.3s ease;
+    opacity: 0.11;
+}
+
+
+
+
+/* 
+
+.main-lead-box{
+    position: relative;
+}
+
+
+
+.lead-img-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 1;
+    opacity: 0.44;
+    transition: all 0.3s ease;
+}
+
+
+.main-lead-box:hover .lead-img-over{
+    background: transparent !important;
+    z-index: 1;
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+
+
+.main-lead-box.lead-title-box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 18px;
+    z-index: 1;
+    padding-bottom: 14px;
+}
+
+
+.lead-news-title {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.4;
+    color: white;
+}
+
+
+.main-lead-box.p-img-icon {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 18px !important;
+    z-index: 1;
+    top: 6%;
+}
+
+.main-lead-box.p-img-icon-right {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 18px !important;
+    z-index: 1;
+    top: 6%;
+} */
