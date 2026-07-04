@@ -3,23 +3,19 @@
     body {
     /* font-family: "Baloo Da 2", sans-serif; */
     font-family: SolaimanLipiNormal;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 150%;
    overflow-x: hidden;
    color: #333;
 }
 
-    .main-lead-title {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 0;
-    color: #333 !important;
-    
+p.date-and-time {
+    font-size: 14px !important;
 }
 
 
 .news-title {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 200;
     line-height: 1.25;
     color: #333;
@@ -34,6 +30,14 @@
 }
 
 
+h4.lead-news-title-responsive {
+    font-size: 20px !important;
+}
+
+
+h4.lead-news-title {
+    font-size: 17px !important;
+}
 
 
 }
