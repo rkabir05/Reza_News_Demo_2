@@ -15,10 +15,11 @@
 body {
     /* font-family: "Baloo Da 2", sans-serif; */
     font-family: SolaimanLipiNormal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 150%;
    overflow-x: hidden;
    color: #333;
+   line-height: 1.5;
 }
 
 
@@ -39,8 +40,11 @@ body {
 .heading>h5>a,
 .heading>h6>a{
     transition: all 0.3s ease-in-out;
+    color: red !important;
+    background-color: transparent !important;
 
 }
+
 .bi-house-door:hover,
 .heading>h1>a:hover,
 .heading>h2>a:hover,
@@ -48,7 +52,8 @@ body {
 .heading>h4>a:hover,
 .heading>h5>a:hover,
 .heading>h6>a:hover {
-    color: red !important;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -119,6 +124,8 @@ body {
 
 .item-right:hover {
     background-color: red;
+    color: white;
+    transition: all 0.3s ease-in-out;
 }
 
 
