@@ -122,14 +122,43 @@ body {
 }
 
 
+.item-right>a>h6:hover {
+    color: white !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
 .item-right:hover {
-    background-color: red;
-    color: white;
-    transition: all 0.3s ease-in-out;
+    background-color: red !important;
+    transition: all 0.3s ease-in-out !important;
 }
 
 
+.bg-sp {
+    color: #f9c802
+;
+}
 
+.bg-sp {
+    color: #f9c802
+;
+}
 
+.news-title {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #333;
 
+}
 
+.subheading {
+    font-size: 20px;
+    background: #f9c802;
+    width: 28px;
+    height: 28px;
+    border-radius: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
