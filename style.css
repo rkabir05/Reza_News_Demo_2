@@ -162,3 +162,23 @@ body {
     align-items: center;
     color: #333;
 }
+
+.entertainment {
+    background: #002664;
+}
+
+
+.item-name-underline {
+    margin: 18px 0; 
+    padding-left: 2px;
+    color: #606060;
+    font-size: 20px;
+    /* text-decoration: underline #f9c802; */
+    text-underline-offset: 13px;
+    text-decoration-thickness: 3px;
+
+}
+
+.border-bottom-5px {
+    border-bottom: 5px solid white;
+}
