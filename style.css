@@ -155,17 +155,7 @@ body {
 
 }
 
-.subheading {
-    font-size: 20px;
-    background: #f9c802;
-    width: 28px;
-    height: 28px;
-    border-radius: 53px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #333;
-}
+
 
 .entertainment {
     background: #002664;
@@ -264,12 +254,11 @@ body {
     background: #f9c802;
     width: 28px;
     height: 28px;
-    border-radius: 53px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #333;
-    color: red;
+    color: white;
 }
 
 .main-lead-title {
@@ -334,3 +323,5 @@ body {
 p.policy-text {
     text-align: justify;
 }
+
+
