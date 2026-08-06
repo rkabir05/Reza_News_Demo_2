@@ -15,7 +15,7 @@
 body {
     /* font-family: "Baloo Da 2", sans-serif; */
     font-family: SolaimanLipiNormal;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 150%;
    overflow-x: hidden;
    color: #333;
@@ -23,13 +23,6 @@ body {
 }
 
 
-.news-title {
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 1.25;
-    color: #333;
-    /* text-align: right; */
-}
 
 
 .bi-house-door,
@@ -170,13 +163,6 @@ body {
 ;
 }
 
-.news-title {
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 1.4;
-    color: #333;
-
-}
 
 
 
@@ -284,14 +270,26 @@ body {
     color: white;
 }
 
-.main-lead-title {
-    font-size: 28px;
+.lead-news-title {
+    font-size: 34px;
     font-weight: 100;
     line-height: 1;
-    color: #333 !important;
+    color: white !important;
+    line-height: 1.2;
+}
+
+.news-title {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    line-height: 1.5;
 }
 
 
+
+
+.news-title:hover,
 .main-lead-title:hover,
 .p-news-title:hover,
 .news-title:hover,
@@ -375,3 +373,9 @@ p.policy-text {
   transition: all 0.3s ease-in-out;
 
 }
+
+/* .main-lead-title>h3 {
+    opacity: 0.85;
+    color: rgba(0, 0, 0, var(--grad-opacity));
+    
+} */

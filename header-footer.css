@@ -56,14 +56,14 @@ body {
 
 .social-media-header>ul>li>a,
 .social-media-footer>ul>li>a {
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: #fff;
-    color: #454545 !important;
+    background: #D5D6EA;
+    color: #808080 !important;
     transition: all 0.2s ease;
     font-size: 18px;
 }
@@ -120,12 +120,14 @@ i.fa-brands.fa-whatsapp:hover {
     color:  #25d366 ;
     transition: all 0.3s ease-in-out;
     /* color: white; */
+
 }
 
 .social-media-footer>ul>li>a>.fa-linkedin-in:hover {
     color: #0077B5 ;
     transition: all 0.3s ease-in-out;
     /* color: white; */
+    background: #454545;
 }
 
 
