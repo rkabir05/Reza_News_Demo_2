@@ -282,7 +282,16 @@ body {
     font-size: 24px;
     font-weight: 100;
     line-height: 1;
-    color: white;
+    color: white !important;
+    line-height: 1.5;
+}
+
+
+.news-title-latest {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1;
+    color: #000;
     line-height: 1.5;
 }
 
@@ -293,6 +302,7 @@ body {
 .main-lead-title:hover,
 .p-news-title:hover,
 .news-title:hover,
+.news-title-latest:hover,
 .lead-heading>h2>a:hover {
     color: #ffc107 !important;
     transition: all 0.3s ease-in-out;

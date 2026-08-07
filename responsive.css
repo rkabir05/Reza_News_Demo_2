@@ -15,13 +15,25 @@ p.date-and-time {
 
 
 .news-title {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200;
     line-height: 1.25;
-    color: #333;
+    color: white !important;
     /* text-align: right; */
 }
 
+
+.news-title-latest {
+    font-size: 18px !important;
+    font-weight: 200;
+    line-height: 1.25;
+    color: w#000 !important;
+    /* text-align: right; */
+}
+
+.ny-text {
+    margin-top: 15px;
+}
 
 
 .p-title-box {
@@ -30,8 +42,12 @@ p.date-and-time {
 }
 
 
-h4.lead-news-title-responsive {
-    font-size: 20px !important;
+.lead-news-title {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1;
+    color: white !important;
+    line-height: 1.2;
 }
 
 
