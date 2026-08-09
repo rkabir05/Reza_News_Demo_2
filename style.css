@@ -182,6 +182,13 @@ body {
 
 }
 
+.text-color {
+    color: #606060;
+
+}
+
+
+
 .border-bottom-5px {
     border-bottom: 5px solid white;
 }
@@ -282,17 +289,33 @@ body {
     font-size: 24px;
     font-weight: 100;
     line-height: 1;
-    color: white !important;
+    color:  #606060 !important;
+    line-height: 1.5;
+}
+
+.news-title-lead {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1;
+    color:  white !important;
+    line-height: 1.5;
+}
+
+
+.news-title-2nd-lead {
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 1;
+    color:  white !important;
     line-height: 1.5;
 }
 
 
 .news-title-latest {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 100;
-    line-height: 1;
-    color: #000;
-    line-height: 1.5;
+    line-height: 1.3;
+    color:  #606060;
 }
 
 
@@ -323,7 +346,7 @@ body {
 
 .more-read-btn a {
     background: #f9c802;
-    color: #000;
+    color:  #606060;
     padding: 10px 10px;
     display: inline-block;
     text-align: center;

@@ -14,20 +14,50 @@ p.date-and-time {
 }
 
 
+
+
 .news-title {
     font-size: 20px;
-    font-weight: 200;
-    line-height: 1.25;
-    color: white !important;
-    /* text-align: right; */
+    font-weight: 100;
+    line-height: 1;
+    color:  #606060 !important;
+    line-height: 1.5;
+}
+
+.news-title-lead {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1;
+    color:  white !important;
+    line-height: 1.5;
 }
 
 
+.news-title-responsive {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1;
+    color:  white !important;
+    line-height: 1.5;
+}
+
+
+.news-title-responsive-black {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1;
+    color:  #606060 !important;
+    line-height: 1.5;
+}
+
+
+
+.news-title-arcive,
 .news-title-latest {
-    font-size: 18px !important;
+    font-size: 20px !important;
     font-weight: 200;
     line-height: 1.25;
-    color: w#000 !important;
+    color: #606060 !important;
     /* text-align: right; */
 }
 
@@ -50,6 +80,22 @@ p.date-and-time {
     line-height: 1.2;
 }
 
+.policy-title {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1;
+    line-height: 1.2;
+}
+
+
+.policy-text {
+    font-size: 14px;
+    line-height: 1;
+    line-height: 1.2;
+    color: #606060 !important;
+
+}
+
 
 h4.lead-news-title {
     font-size: 17px !important;
@@ -57,55 +103,29 @@ h4.lead-news-title {
 
 
 
-.r-mt-1 {
-    margin-top: 1px;
-}
-.r-mt-2 {
-    margin-top: 2px;
-}
-.r-mt-3 {
-    margin-top: 3px;
-}
-.r-mt-4 {
-    margin-top: 4px;
+
+
+
+.margin-top-25 {
+    margin-top: 25px !important;
 }
 
-.r-mt-5 {
-    margin-top: 5px;
-}
-.r-mt-6 {
-    margin-top: 6px;
-}
-.r-mt-7 {
-    margin-top: 7px;
-}
-.r-mt-8 {
-    margin-top: 8px;
-}
-.r-mt-9 {
-    margin-top: 9px;
-}
-.r-mt-10 {
-    margin-top: 10px;
-}
-.r-mt-11 {
-    margin-top: 11px;
-}
-.r-mt-12 {
-    margin-top: 12px;
-}
-.r-mt-13 {
-    margin-top: 13px;
-}
-.r-mt-14 {
-    margin-top: 14px;
-}
-.r-mt-15 {
-    margin-top: 15px;
+.margin-top-20 {
+    margin-top: 20px !important;
 }
 
 
+    .entertainment-p-m-0 {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+
+
 }
+
+
+
 
 
 
