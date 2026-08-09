@@ -13,7 +13,6 @@
 }
 
 body {
-    /* font-family: "Baloo Da 2", sans-serif; */
     font-family: SolaimanLipiNormal;
     font-size: 15px;
     line-height: 150%;
@@ -39,8 +38,6 @@ body {
 
 .dropdown-menu {
   z-index: 10 !important;
-  /* pointer-events: none; */
-
 }
 
 
@@ -82,7 +79,6 @@ body {
 
 
 
-
 .footer-bg-color {
     background-color: #f5f5f5;
 } 	
@@ -90,13 +86,10 @@ body {
 
 
 
-
-
 i.fa-brands.fa-facebook-f:hover {
     color: #1877F2 ;
     transition: all 0.3s ease-in-out;
-    /* color: white; */
-} */
+} 
 
 i.fa-brands.fa-x-twitter:hover {
     color: #000000 !important;
@@ -106,27 +99,22 @@ i.fa-brands.fa-x-twitter:hover {
 i.fa-brands.fa-youtube:hover {
     color: #ff0000 ;
     transition: all 0.3s ease-in-out;
-    /* color: white; */
 }
 
 i.fa-brands.fa-instagram:hover {
     color: #8134AF ;
     transition: all 0.3s ease-in-out;
-    /* color: white; */
 }
 
 
 i.fa-brands.fa-whatsapp:hover {
     color:  #25d366 ;
     transition: all 0.3s ease-in-out;
-    /* color: white; */
-
 }
 
 .social-media-footer>ul>li>a>.fa-linkedin-in:hover {
     color: #0077B5 ;
     transition: all 0.3s ease-in-out;
-    /* color: white; */
     background: #454545;
 }
 

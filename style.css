@@ -7,9 +7,9 @@
 
 
 @font-face {
-    font-family: "SolaimanLipiNormal";
-    src: url('fonts/solaimanlipi_20-04-07.eot');
-    src: url('fonts/solaimanlipi_20-04-07.eot')format('embedded-opentype'), url('fonts/solaimanlipi_20-04-07.woff') format('woff'), url('fonts/solaimanlipi_20-04-07.ttf') format('truetype'), url('fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal') format('svg');
+    font-family: "SolaimanLipi";
+    src: url("../fonts/solaimanlipi.woff2") format("woff2");
+    font-display: swap;
 }
 
 body {
@@ -38,6 +38,17 @@ body {
 
 }
 
+.bi-house-door,
+.heading>h1>a,
+.heading>h2>a,
+.heading>h3>a,
+.heading>h4>a,
+.heading>h5>a,
+.heading>h6>a {
+    transition: all 0.3s ease-in-out;
+}
+
+
 .bi-house-door:hover,
 .heading>h1>a:hover,
 .heading>h2>a:hover,
@@ -45,7 +56,6 @@ body {
 .heading>h4>a:hover,
 .heading>h5>a:hover,
 .heading>h6>a:hover {
-    color: white !important;
     transition: all 0.3s ease-in-out;
 }
 
@@ -132,9 +142,6 @@ body {
     margin-top: -10px;
 }
 
-/* a.text-decoration-none.text-dark:hover .single-news-item-box {
-    box-shadow: 0 16px 30px rgba(0,0,0,.08);
-} */
 
 .single-news-item-box h3,
 .single-news-item-box p {
@@ -142,14 +149,21 @@ body {
 }
 
 
+.item-right>a>h6 {
+    transition: all 0.3s ease-in-out !important;
+}
+
 .item-right>a>h6:hover {
     color: white !important;
-    transition: all 0.3s ease-in-out !important;
 }
 
 .item-right:hover {
     background-color: red !important;
-    transition: all 0.3s ease-in-out !important;
+}
+
+.item-right {
+    background-color: red !important;
+
 }
 
 
@@ -163,7 +177,9 @@ body {
 ;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 
 .entertainment {
@@ -279,24 +295,21 @@ body {
 
 .lead-news-title {
     font-size: 34px;
-    font-weight: 100;
-    line-height: 1;
+    font-weight: 400;
     color: white !important;
     line-height: 1.2;
 }
 
 .news-title {
     font-size: 24px;
-    font-weight: 100;
-    line-height: 1;
+    font-weight: 400;
     color:  #606060 !important;
     line-height: 1.5;
 }
 
 .news-title-lead {
     font-size: 24px;
-    font-weight: 100;
-    line-height: 1;
+    font-weight: 400;
     color:  white !important;
     line-height: 1.5;
 }
@@ -304,8 +317,7 @@ body {
 
 .news-title-2nd-lead {
     font-size: 22px;
-    font-weight: 100;
-    line-height: 1;
+    font-weight: 400;
     color:  white !important;
     line-height: 1.5;
 }
@@ -313,12 +325,23 @@ body {
 
 .news-title-latest {
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 1.3;
     color:  #606060;
 }
 
 
+
+
+.news-title,
+.main-lead-title,
+.p-news-title,
+.news-title,
+.news-title-latest,
+.lead-heading>h2>a {
+    transition: all 0.3s ease-in-out;
+
+}
 
 
 .news-title:hover,
@@ -328,7 +351,6 @@ body {
 .news-title-latest:hover,
 .lead-heading>h2>a:hover {
     color: #ffc107 !important;
-    transition: all 0.3s ease-in-out;
 
 }
 
@@ -339,9 +361,7 @@ body {
     width: 100px;
 }
 
-.btn:hover {
-    color: var(--bs-btn-hover-color);
-}
+
 
 
 .more-read-btn a {
@@ -403,6 +423,11 @@ p.policy-text {
 .box-hover:hover{
   transform: translateY(-4px);
   box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+  transition: all 0.3s ease-in-out;
+
+}
+
+.box-hover{
   transition: all 0.3s ease-in-out;
 
 }
